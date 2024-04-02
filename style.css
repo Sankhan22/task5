@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.navbar{
+    width: 100%;
+    background-color:aliceblue;
+    display: flex;
+    justify-content: space-around;
+    gap: 350px;
+    padding: 20px 0px;
+    position:fixed;
+    z-index: 1;
+}
+.navbar__lists{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    gap: 20px;
+}
+
+.banner{
+    width: 100%;
+    height: 600px;
+    background-image: url(https://www.w3schools.com/w3images/architect.jpg);
+    background-repeat: no repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner div{
+    color: white;
+
+}
+.banner__header{
+    color:#fff;
+    font-size: 63px;
+}
+.banner__header span{
+    background-color: black;
+    padding: 10px;
+}
+.first__section{
+    display: flex;
+    flex-direction:row ;
+    flex-wrap: wrap;
+    background-color: aliceblue;
+    gap: 20px 40px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.first__section div{
+    width: 350px;
+    height: 350px;
+    position: relative;
+
+}
+.first__section div img{
+    width:100%;
+    height: 100%;
+}
+.black__box{
+    color: white;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px;
+}
+.second__section{
+    width: 100%;
+    padding: 50px;
+}
+.container{
+    max-width: 1400px;
+    padding: 100px 32px;
+    margin: 0 auto;
+    width: 100%;
+}
+img{
+    max-width: 100%;
+    height: 100%;
+    object-fit: cover;
+   
+}
+.flexbox{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    gap: 30px;
+}
+.text{
+    text-align: left;
+}
+.btn{
+    width: 100%;
+    padding: 10px;
+    border-style: none;
+
+}
+.input {
+  
+  display: flex;
+  flex-direction: column;
+  
+}
+.input input{
+    margin: 10px;
+    padding: 5px; 
+}
+.image{
+    width: 100%;
+    height: 100%;
+    object-fit:.cover;
+}
+.foot{
+    width: 100%;
+    height: 80px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.foot div{
+    color: white;
+}
